@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main-grid">
+        <section class="sidebar">
+            <img src="logo.png" class="logo">            
+            <div class="sidebar-inner">
+                <div class="item-container">
+                    <ul class="sidebar-item-section sidebar-item-section1">
+                        <li class="sidebar-active">
+                            <a href="#">
+                                <span class="item-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-home">
+                                        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                                        <polyline points="9 22 9 12 15 12 15 22" />
+                                    </svg>
+                                </span>
+                                <span class="item-title">
+                                    Home
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="item-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube">
+                                        <path
+                                            d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+                                        <path d="m10 15 5-3-5-3z" />
+                                    </svg>
+                                </span>
+                                <span class="item-title">
+                                    Subscription
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="item-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-history">
+                                        <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                                        <path d="M3 3v5h5" />
+                                        <path d="M12 7v5l4 2" />
+                                    </svg>
+                                </span>
+                                <span class="item-title">
+                                    History
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="item-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock-8">
+                                        <circle cx="12" cy="12" r="10" />
+                                        <polyline points="12 6 12 12 8 14" />
+                                    </svg>
+                                </span>
+                                <span class="item-title">
+                                    Watch Later
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="item-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-thumbs-up">
+                                        <path d="M7 10v12" />
+                                        <path
+                                            d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z" />
+                                    </svg>
+                                </span>
+                                <span class="item-title">
+                                    Liked videos
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="sidebar-item-section sidebar-item-section2" id="subscription">
+                        <div class="section-title">
+                            Subscription
+                        </div>
+                        <li>
+                            <a href="#">
+                                <span class="subscription-item-icon">
+                                    <img src="https://yt3.googleusercontent.com/fxGKYucJAVme-Yz4fsdCroCFCrANWqw0ql4GYuvx8Uq4l_euNJHgE-w9MTkLQA805vWCi-kE0g=s160-c-k-c0x00ffffff-no-rj" class="page_icon"
+                                        alt="image">
+                                </span>
+                                <span class="subscription-item-title">
+                                    MrBeast
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="subscription-item-icon">
+                                    <img src="https://yt3.googleusercontent.com/T9IuKawbxOW0FXuRNNUbQaZPC7VuNu-GXW4lDLCW6-kKqFaCQViXgVUpB_fzaslXU-c1W3W-=s160-c-k-c0x00ffffff-no-rj" class="page_icon"
+                                        alt="image">
+                                </span>
+                                <span class="subscription-item-title">
+                                    Vj Siddhu Vlogs
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="subscription-item-icon">
+                                    <img src="https://yt3.googleusercontent.com/ytc/AIdro_kdFSFaUrMKl1-R4r1J2XUBvWPTZJfUTCD4Y16SSczWCP4=s160-c-k-c0x00ffffff-no-rj" class="page_icon"
+                                        alt="image">
+                                </span>
+                                <span class="subscription-item-title">
+                                    SunTV
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="subscription-item-icon">
+                                    <img src="https://yt3.googleusercontent.com/Z72n1HBCgory8N9NqnAIFAkJpSQrJ0zFpwax7h2ZGf3w5_CaL5DKOBD2j8m8PltqAlRvvrjXEA=s160-c-k-c0x00ffffff-no-rj" class="page_icon"
+                                        alt="image">
+                                </span>
+                                <span class="subscription-item-title">
+                                    Parithabangal
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="subscription-item-icon">
+                                    <img src="https://yt3.googleusercontent.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s160-c-k-c0x00ffffff-no-rj" class="page_icon"
+                                        alt="image">
+                                </span>
+                                <span class="subscription-item-title">
+                                    T-Series
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="subscription-item-icon">
+                                    <img src="https://yt3.googleusercontent.com/zgMN9BuSQByG1SrpmLwcNB3MQhjDhS_pl9H1h7TaRievMfS4UpU7Z36j77z5_hnIW4N8uFX3NA=s160-c-k-c0x00ffffff-no-rj" class="page_icon"
+                                        alt="image">
+                                </span>
+                                <span class="subscription-item-title">
+                                    Netflix
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="subscription-item-icon">
+                                    <img src="https://yt3.googleusercontent.com/ZdHBp7KqHcbedATfUdjBSTCrUSs0fytbJc-ICG8VyPO3oYqQ2bV6P6Ty4xkOm5f4CzTArEAugQ=s160-c-k-c0x00ffffff-no-rj" class="page_icon"
+                                        alt="image">
+                                </span>
+                                <span class="subscription-item-title">
+                                    Behindwoods
+                                </span>
+                            </a>
+                        </li>
+                    </ul>                    
+                </div>
+            </div>
+        </section>
+        <section class="nav-bar">
+            <div class="nav-item-section nav-item-section1">
+                <div tabindex="0" class="nav-item youtube-shorts-item">
+                    <span class="nav-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202.128 251.03">
+                            <g id="youtube-shorts-icon" transform="translate(-35.996 -54.001)">
+                                <path id="Path_11" data-name="Path 11"
+                                    d="M129.71,5.535a48.711,48.711,0,0,1,65.456,20.082,47.705,47.705,0,0,1-20.307,64.761L155.39,100.613a48.486,48.486,0,0,1,41.145,25.578,47.688,47.688,0,0,1-20.307,64.761L72.406,245.5A48.711,48.711,0,0,1,6.95,225.416a47.705,47.705,0,0,1,20.307-64.761L46.726,150.42A48.486,48.486,0,0,1,5.581,124.842,47.705,47.705,0,0,1,25.888,60.081L129.71,5.535Z"
+                                    transform="translate(36 54)" fill="red" fill-rule="evenodd" />
+                                <path id="Path_14" data-name="Path 14" d="M38.5,0,77.275,62.322l-77.4-.012Z"
+                                    transform="translate(171.996 141.001) rotate(90)" fill="#fff" />
+                            </g>
+                        </svg>
+                    </span>
+                </div>
+                <div class="nav-item" tabindex="0">
+                    <span class="nav-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 36">
+                            <path id="Icon_awesome-fire" data-name="Icon awesome-fire"
+                                d="M15.188,1.678a1.691,1.691,0,0,0-3.1-.917C3.375,13.489,15.75,14.063,15.75,20.25a4.5,4.5,0,1,1-9-.067V14.171a1.688,1.688,0,0,0-2.913-1.16A14.059,14.059,0,0,0,0,22.5a13.5,13.5,0,0,0,27,0C27,10.526,15.188,8.93,15.188,1.678Z"
+                                transform="translate(0 0)" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <div class="search-bar-section">
+                <input type="text" placeholder="search" />
+                <button class="search-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="nav-item-section nav-item-section2">
+                <div class="nav-item" tabindex="0">
+                    <span class="nav-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.147 18">
+                            <path
+                                d="M16.98,18H3.621A3.622,3.622,0,0,1,0,14.386V3.614A3.618,3.618,0,0,1,3.614,0H16.973a3.618,3.618,0,0,1,3.614,3.614v.167L23.426,1.99a1.205,1.205,0,0,1,.654-.19h1.462a.6.6,0,0,1,.6.6V15.617a.6.6,0,0,1-.6.6H24.08a1.265,1.265,0,0,1-.654-.19l-2.839-1.792v.147A3.618,3.618,0,0,1,16.98,18ZM6.749,7.5a1.5,1.5,0,1,0,0,3h2.43v2.312a1.5,1.5,0,1,0,3,0V10.5h2.43a1.5,1.5,0,0,0,0-3h-2.43V5.188a1.5,1.5,0,0,0-3,0V7.5Z" />
+                        </svg>
+                    </span>
+                </div>
+                <div class="nav-item-section nav-item-section2">
+                    <div class="nav-item" tabindex="0">
+                        <span class="nav-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.5 29.602">
+                                <g id="Group_5" data-name="Group 5" transform="translate(441 -1.553)">
+                                    <path id="Union_1" data-name="Union 1"
+                                        d="M11.46,25.7h-9.2A2.252,2.252,0,0,1,0,23.448a2.194,2.194,0,0,1,.606-1.526c1.358-1.46,3.9-3.656,3.9-10.849a11.1,11.1,0,0,1,9-10.91,15.528,15.528,0,0,1,4.5,0,11.1,11.1,0,0,1,9,10.91c0,7.193,2.542,9.389,3.9,10.849a2.194,2.194,0,0,1,.606,1.526,2.252,2.252,0,0,1-2.257,2.25h-9.2a4.309,4.309,0,0,1-8.579,0Z"
+                                        transform="translate(-441 1.553)" />
+                                </g>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="profile-icon" tabindex="0">
+                        <span class="profile-pic">
+                            <img src="id.png" class="id_img">
+                        </span>
+                    </div>
+                </div>
+        </section>
+        <section class="catagories">
+            <span>All</span>
+            <span>UI Design</span>
+            <span>Gaming</span>
+            <span>Superheroes</span>
+            <span>Web Development</span>
+            <span>VFX</span>
+            <span>Java Script</span>
+            <span>Art & Craft</span>
+            <span>New to you</span>
+            <span>Live</span>
+            <span>Blender</span>
+            <span>Adobe</span>
+            <span>marvel Studios</span>
+            <span>Star Wars</span>
+            <span>UI/UX</span>
+        </section>
+        <section class="main">
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="mrbeast.png"
+                        alt="Thumbnail">
+                    <div class="duration">25:42</div>
+                </div>
+                <div class="content">
+                    <div>
+                        <br><img src="https://yt3.googleusercontent.com/fxGKYucJAVme-Yz4fsdCroCFCrANWqw0ql4GYuvx8Uq4l_euNJHgE-w9MTkLQA805vWCi-kE0g=s160-c-k-c0x00ffffff-no-rj" class="page_icon">
+                    </div>
+                    <div>
+                        <br><span class="title">&dollar;456,000 SquadGame in real life</span>
+                        <span class="channel-name">MrBeast <img src="tick.png" class="tick"></span>
+                        <span class="views">651M views . <span class="time">2 years ago</span></span>
+                    </div>
+                    <div>
+                        <br><img src="menu.png" class="menu">
+                    </div>                    
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="vjs.png"
+                        alt="Thumbnail">
+                    <div class="duration">1:40:34</div>
+                </div>
+                <div class="content">
+                    <div>
+                        <br><img src="https://yt3.googleusercontent.com/T9IuKawbxOW0FXuRNNUbQaZPC7VuNu-GXW4lDLCW6-kKqFaCQViXgVUpB_fzaslXU-c1W3W-=s160-c-k-c0x00ffffff-no-rj" class="page_icon">
+                    </div>
+                    <div>
+                        <br><span class="title">Insta Series Full movie|Full fun</span>
+                        <span class="channel-name">Vj siddhu vlogs<img src="tick.png" class="tick"></span>
+                        <span class="views">3.5M views . <span class="time">4 months ago</span></span>
+                    </div> 
+                    <div>
+                        <br><img src="menu.png" class="menu">
+                    </div>                     
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="mg.jpg"
+                        alt="Thumbnail">
+                    <div class="duration">20:11</div>
+                </div>
+                <div class="content">
+                    <div>
+                        <br><img src="https://yt3.googleusercontent.com/ytc/AIdro_lrMeOj87eBqgzxutjD58IfdwxTzlyfl5JPMd27ga2zeXEi=s160-c-k-c0x00ffffff-no-rj" class="page_icon">
+                    </div>
+                    <div>
+                    <br><span class="title">Goat Review</span>
+                        <span class="channel-name">Madan Gowri<img src="tick.png" class="tick"></span>
+                        <span class="views">939K views . <span class="time">2 weeks ago</span></span>
+                    </div>    
+                    <div>
+                        <br><img src="menu.png" class="menu">
+                    </div>                  
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSneg13j33zH8ZT3oGALY79zj7dAobhc1PaWg&s"
+                        alt="Thumbnail">
+                    <div class="duration">1:17:49</div>
+                </div>
+                <div class="content">
+                    <div>
+                        <br><img src="https://yt3.googleusercontent.com/ZdHBp7KqHcbedATfUdjBSTCrUSs0fytbJc-ICG8VyPO3oYqQ2bV6P6Ty4xkOm5f4CzTArEAugQ=s160-c-k-c0x00ffffff-no-rj" class="page_icon">
+                    </div>
+                    <div>
+                        <br><span class="title">Behindwoods Awards 2024</span>
+                        <span class="channel-name">Behindwoods <img src="tick.png" class="tick"></span>
+                        <span class="views">1M views . <span class="time">5 months ago</span></span>
+                    </div>
+                    <div>
+                        <br><img src="menu.png" class="menu">
+                    </div>                      
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="ts.jpg"
+                        alt="Thumbnail">
+                    <div class="duration">4:40</div>
+                </div>
+                <div class="content">
+                    <div>
+                        <br><img src="https://yt3.googleusercontent.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s160-c-k-c0x00ffffff-no-rj" class="page_icon">
+                    </div>
+                    <div>
+                        <br><span class="title">Whistle Song|Thalapathy Vijay|GOAT</span>
+                        <span class="channel-name">T-Series<img src="tick.png" class="tick"></span>
+                        <span class="views">25M views . <span class="time">2 months ago</span></span>
+                    </div>  
+                    <div>
+                        <br><img src="menu.png" class="menu">
+                    </div>                    
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="stv.jpg"
+                        alt="Thumbnail">
+                    <div class="duration">3:49</div>
+                </div>
+                <div class="content">
+                    <div>
+                        <br><img src="https://yt3.googleusercontent.com/ytc/AIdro_kdFSFaUrMKl1-R4r1J2XUBvWPTZJfUTCD4Y16SSczWCP4=s160-c-k-c0x00ffffff-no-rj" class="page_icon">
+                    </div>
+                    <div>
+                        <br><span class="title">Coolie|Title Teaser|Super Star|Lokesh Kanagaraj</span>
+                        <span class="channel-name">SunTV<img src="tick.png" class="tick"></span>
+                        <span class="views">20M views . <span class="time">1 months ago</span></span>
+                    </div>    
+                    <div>
+                        <br><img src="menu.png" class="menu">
+                    </div>                  
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="gosu.jpg"
+                        alt="Thumbnail">
+                    <div class="duration">12:35</div>
+                </div>
+                <div class="content">
+                    <div>
+                        <br><img src="https://yt3.googleusercontent.com/Z72n1HBCgory8N9NqnAIFAkJpSQrJ0zFpwax7h2ZGf3w5_CaL5DKOBD2j8m8PltqAlRvvrjXEA=s160-c-k-c0x00ffffff-no-rj" class="page_icon">
+                    </div>
+                    <div>
+                        <br><span class="title">Indian 2 Paavangal|Gopi Sudhakar</span>
+                        <span class="channel-name">Parithabangal<img src="tick.png" class="tick"></span>
+                        <span class="views">3M views . <span class="time">2 months ago</span></span>
+                    </div> 
+                    <div>
+                        <br><img src="menu.png" class="menu">
+                    </div>                     
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="marvel.jpg"
+                        alt="Thumbnail">
+                    <div class="duration">7:26</div>
+                </div>
+                <div class="content">
+                    <div>
+                        <br><img src="https://yt3.googleusercontent.com/ytc/AIdro_nch5Zou4S-z7GphMTRXPgLxBDs2Af5ZD8Ch9NDeK0jWKM=s160-c-k-c0x00ffffff-no-rj" class="page_icon">
+                    </div>
+                    <div>
+                        <br><span class="title">Deadpool & Wolverine|Final Triler</span>
+                        <span class="channel-name">Indian Marvel Studios <img src="tick.png" class="tick"></span>
+                        <span class="views">139M views . <span class="time">4 months ago</span></span>
+                    </div>   
+                    <div>
+                        <br><img src="menu.png" class="menu">
+                    </div>                   
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="sm.jpg"
+                        alt="Thumbnail">
+                    <div class="duration">4:38</div>
+                </div>
+                <div class="content">
+                    <div>
+                        <br><img src="https://yt3.googleusercontent.com/4r5hojdgYSURVFct3TKBo_CRzCw8x9NtvuzezmmKh7S-yf_U0gXz1AVLv-DAeknAM0hnFWoI=s160-c-k-c0x00ffffff-no-rj" class="page_icon">
+                    </div>
+                    <div>
+                        <br><span class="title">Private Party|SK|Priyanka Mohan</span>
+                        <span class="channel-name">Sony Music<img src="tick.png" class="tick"></span>
+                        <span class="views">20M views . <span class="time">1 year ago</span></span>
+                    </div>     
+                    <div>
+                        <br><img src="menu.png" class="menu">
+                    </div>                 
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="rb.jpg"
+                        alt="Thumbnail">
+                    <div class="duration">5:08</div>
+                </div>
+                <div class="content">
+                    <div>
+                        <br><img src="https://yt3.googleusercontent.com/zfpc0aBJw8DcM9gp6VGaipf1xyKnq0Rl2dInkb8-bsQ2x4EE3XNwshLKEZlI1vQar-JG2MJ-bw=s160-c-k-c0x00ffffff-no-rj" class="page_icon">
+                    </div>
+                    <div>
+                        <br><span class="title">Rowdy Baby|Dhanush|Sai Pallavi</span>
+                        <span class="channel-name">Wunderbar Flim <img src="tick.png" class="tick"></span>
+                        <span class="views">2B views . <span class="time">6 years ago</span></span>
+                    </div> 
+                    <div>
+                        <br><img src="menu.png" class="menu">
+                    </div>                     
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="bd.jpg"
+                        alt="Thumbnail">
+                    <div class="duration">4:19</div>
+                </div>
+                <div class="content">
+                    <div>
+                        <br><img src="https://yt3.googleusercontent.com/_rO8IOjqWOx-nB8q3TX0Wag1McsdxxNgT2CF9m-oLU5U7H-p0QdEuPkDC37Hjldu7pjzd0X4Og=s160-c-k-c0x00ffffff-no-rj" class="page_icon">
+                    </div>
+                    <div>
+                        <br><span class="title">Big Dawgs|Official video</span>
+                        <span class="channel-name">Hanumankind<img src="tick.png" class="tick"></span>
+                        <span class="views">179M views . <span class="time">1 month ago</span></span>
+                    </div> 
+                    <div>
+                        <br><img src="menu.png" class="menu">
+                    </div>                     
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="sk.jpg"
+                        alt="Thumbnail">
+                    <div class="duration">5:50</div>
+                </div>
+                <div class="content">
+                    <div>
+                        <br><img src="https://yt3.googleusercontent.com/4rwq3dgD1S458J8m4PVogPWZ9AUVDPwuuI0AJW3hnc9QGFAF1cwzNqqcQuwpLeQvzQhChnBS=s160-c-k-c0x00ffffff-no-rj" class="page_icon">
+                    </div>
+                    <div>
+                        <br><span class="title">Sevalkodi Song|Ajith Kumar</span>
+                        <span class="channel-name">Ayngaran Music<img src="tick.png" class="tick"></span>
+                        <span class="views">78M views . <span class="time">9 yearss ago</span></span>
+                    </div> 
+                    <div>
+                        <br><img src="menu.png" class="menu">
+                    </div>                     
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="nf.jpg"
+                        alt="Thumbnail">
+                    <div class="duration">4:29</div>
+                </div>
+                <div class="content">
+                    <div>
+                        <br><img src="https://yt3.googleusercontent.com/zgMN9BuSQByG1SrpmLwcNB3MQhjDhS_pl9H1h7TaRievMfS4UpU7Z36j77z5_hnIW4N8uFX3NA=s160-c-k-c0x00ffffff-no-rj" class="page_icon">
+                    </div>
+                    <div>
+                        <br><span class="title">SECTOR 36|Official Trailer</span>
+                        <span class="channel-name">Netflix <img src="tick.png" class="tick"></span>
+                        <span class="views">24M views . <span class="time">5 months ago</span></span>
+                    </div>          
+                    <div>
+                        <br><img src="menu.png" class="menu">
+                    </div>            
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="kalki.jpg"
+                        alt="Thumbnail">
+                    <div class="duration">3:50</div>
+                </div>
+                <div class="content">
+                    <div>
+                        <br><img src="https://yt3.googleusercontent.com/ZnBmMi35bqmVJODSRzSwo3_j3WVaBd3DhRJHrKTS4yMX4jds1gXOsH0JpjBtr4HzfNClZcnjWw=s160-c-k-c0x00ffffff-no-rj" class="page_icon">
+                    </div>
+                    <div>
+                        <br><span class="title">Ta Takkara Video song|KALKI|Prabhas</span>
+                        <span class="channel-name">Sarigama <img src="tick.png" class="tick"></span>
+                        <span class="views">123M views . <span class="time">4 months ago</span></span>
+                    </div>   
+                    <div>
+                        <br><img src="menu.png" class="menu">
+                    </div>                   
+                </div>
+            </div>
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="interstellar.jpg"
+                        alt="Thumbnail">
+                    <div class="duration">20:12</div>
+                </div>
+                <div class="content">
+                    <div>
+                        <br><img src="https://yt3.googleusercontent.com/jyjvGxNxrcclicxnyLIbr209T0zb5jFlfoJyXIdLazrEQMaCXjEfgCNdaCFV3QZRDY05gsi1Umg=s160-c-k-c0x00ffffff-no-rj" class="page_icon">
+                    </div>
+                    <div>
+                        <br><span class="title">Motion Picture Soundtrack|Interstellar</span>
+                        <span class="channel-name">Paramount Pictures <img src="tick.png" class="tick"></span>
+                        <span class="views">653M views . <span class="time">2 yearss ago</span></span>
+                    </div>  
+                    <div>
+                        <br><img src="menu.png" class="menu">
+                    </div>                    
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
